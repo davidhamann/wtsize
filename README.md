@@ -25,4 +25,5 @@ pip3 install https://github.com/davidhamann/wtsize/archive/master.zip
 ## Limitations
 
 - Not all servers return a Content-Length header so you might be unable to get the actual file size without, well, downloading the file. `wtsize` will tell you if that's the case.
+- In some cases the Content-Length cannot be known before accessing the body (dynamic content)
 - Headers can easily be spoofed. Generally, though, there's a good chance that the Content-Length header in the server response is accurate.
