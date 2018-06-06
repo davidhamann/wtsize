@@ -19,7 +19,7 @@ wtsize --version
 ## Install
 
 ```
-pip3 install https://github.com/davidhamann/wtsize/archive/master.zip
+pip install wtsize
 ```
 
 ## Limitations
